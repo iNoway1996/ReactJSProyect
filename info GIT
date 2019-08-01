@@ -1,2 +1,47 @@
 #PARA VINCULAR UNA CARPETA A GIT
 Utilizar "git init" en la carpeta que quiero añadir
+Me tendria que responder:
+-Inicializado repositorio Git vacío en /home/ruben/Escritorio/ProyectosREACTJS/.git/
+
+
+#PARA VER EL ESTADO DEL GIT
+git status
+
+
+#PARA VER LOS CAMBIOS QUE NO SE HAN HECHO
+git diff
+
+
+#PARA AÑADIR AL GIT
+git add . / git add -A
+
+
+#REVISAR LOGS
+git logs
+
+
+#ALIAS EN GIT
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+
+En vez de teclear "commit", lo que haré será "git ci"
+
+
+#NOMBRE DEL REPOSITORIO
+https://github.com/iNoway1996/ReactJSProyect.git
+
+#AÑADIR AL REPOSITORIO
+git remote add origin https://github.com/iNoway1996/ReactJSProyect.git
+git push -u origin master
+
+#USERNAME GIT
+rubenramirezdelpozo@gmail.com
+
+#PASSWORD GIT
+fiorino2323
+
+#PARA CLONAR, TENDRE QUE IR AL OTRO ORDENADOR Y PONER LO SIGUIENTE DENTRO DE LA FOLDER:
+git clone https://github.com/iNoway1996/ReactJSProyect.git
+
